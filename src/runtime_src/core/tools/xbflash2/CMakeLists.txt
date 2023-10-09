@@ -8,6 +8,8 @@ find_package(Boost
 include_directories(
   ${CMAKE_CURRENT_SOURCE_DIR}
   ${CMAKE_BINARY_DIR}/gen # includes version.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/../../
+  ${CMAKE_CURRENT_SOURCE_DIR}/../../../
   )
 
 # Collect files outside of this directory
